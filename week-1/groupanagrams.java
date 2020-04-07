@@ -11,6 +11,9 @@ import java.util.*;
  * All inputs will be in lowercase. The order of your output does not matter.
  */
 public class GroupAnagrams {
+
+    // not quite correct
+    // does not handle empty strings very well
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> outerList = new ArrayList<List<String>>();
         List<String> innerList = new ArrayList<String>();
